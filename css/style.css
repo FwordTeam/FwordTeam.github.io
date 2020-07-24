@@ -1,0 +1,78 @@
+/* ---- reset ---- */ 
+body{ 
+	margin:0; 
+	font:normal 75% Cairo,Arial, Helvetica, sans-serif; 
+} 
+
+canvas{ 
+	display: block; 
+	vertical-align: 
+	bottom; 
+} 
+
+.main {
+	position: absolute;
+	height: 100%;
+	padding-top: 1%;
+}
+
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color:#97c00e;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+  color: white;
+}
+
+#fword-logo{
+	width: 20%;
+	height: auto;
+	
+	margin-bottom: 2%;
+}
+
+#logo-sponso{
+	max-width: 20%;
+	height: auto;
+	margin: 3%;
+}
+
+
+.titles {
+	color: white;
+	font-size: 23px;
+	font-family: 'Cairo', sans-serif; 
+}
+
+.titles i{
+	color: #97c00e;
+}
+
+.contact{
+	color : #97c00e;
+	margin-right: 2%;
+	margin-top: 2%;
+
+}
+
+.contact:hover{
+	color: white;
+}
+
+.prizes{
+	color: white;
+	font-size: 1.5em;
+}
+
+.prizes i{
+	color: #97c00e;
+	margin-right: 1%;
+}
