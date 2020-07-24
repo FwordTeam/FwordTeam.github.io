@@ -77,3 +77,20 @@ li span {
 	color: #97c00e;
 	margin-right: 1%;
 }
+
+.regg a{
+	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	-ms-transform: translateX(-50%);
+  	transform: translateX(-50%);
+  	margin: 0;
+	color: #97c00e;
+	font-size: 18px;
+	font-family: 'Cairo', sans-serif;
+}
+
+.regg a:hover {
+	color : white;
+}
