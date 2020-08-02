@@ -46,6 +46,9 @@ li span {
 	margin: 3%;
 }
 
+#logo-sponso:hover{
+	opacity: .85;
+}
 
 .titles {
 	color: white;
