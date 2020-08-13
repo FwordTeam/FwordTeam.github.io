@@ -28,17 +28,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@FwordTeam">
-	<meta name="twitter:creator" content="@FwordTeam">
-	<meta property="og:title" content="Fword CTF">
-	<meta property="og:site_name" content="Fword CTF">
-	<meta name="twitter:description" content="A capture the flag competition organized by Fword team.">
-	<meta name="twitter:image" content="https://fword.wtf/img/logo-twitter.png">
-	<meta property="og:image" content="https://fword.wtf/img/logo-twitter.png">
-	<meta property="og:description" content="A capture the flag competition organized by Fword team.">
-	<meta property="og:url" content="https://www.fword.wtf/">
 </head>
 <style type="text/css">
 	#myVideo {
@@ -52,14 +41,14 @@
 </style>
 <body>
 
-<video autoplay muted loop playsinline id="myVideo" style="background-color: #1d1d1d">
-  <source src="background.webm" type="video/webm">
+<video autoplay muted loop id="myVideo" style="background-color: #1d1d1d">
+  <source src="background.mp4" type="video/mp4">
 </video>
 <div class="main">
 	<div class="text-center container-fluid">
 			<img class="img-fluid" src="img/fword-logo.png" id="fword-logo">
 			
-			<div style="font:normal 75% Arial, Helvetica, sans-serif;">
+			<div style="font:normal 75% Arial, Helvetica, sans-serif; ">
 			  <ul>
 			    <li><span id="days"></span>days</li>
 			    <li><span id="hours"></span>Hours</li>
@@ -74,6 +63,9 @@
 						<i class="fa fa-angle-right" aria-hidden="true"></i> 
 						Sponsors 
 					</h3>
+					<a href="http://hackthebox.eu" target="_blank">
+						<img id="logo-sponso" src="img/hackthebox.png" class="img-fluid" style="max-width: 33%">
+					</a><br>
 					<a href="http://securinets.com" target="_blank">
 						<img id="logo-sponso" src="img/securinets.png" class="img-fluid">
 					</a>
@@ -89,8 +81,8 @@
 				</div>
 				<div class="col-2">
 					<h3 class="regg">
-						<a href="http://ctf.fword.wtf" class="btn draw-border"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-							 Register</a>
+						<a href="#NotYet" class="btn draw-border"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+							Register</a>
 					</h3>
 				</div>
 				<div class="col-5">
@@ -98,16 +90,19 @@
 						<i class="fa fa-angle-right" aria-hidden="true"></i> 
 						Prizes 
 					</h3>
-					<br>
+					<br><br>
 					<h2 class="prizes">
-						<i class="fa fa-trophy fa-2x" aria-hidden="true"></i> PentesterLab Pro Vouchers
-				</h2>
-				<h2 class="prizes">
-					<i class="fa fa-trophy fa-2x" aria-hidden="true"></i> TryHackMe VIP Vouchers
-				</h2>
-				<h2 class="prizes">
-					<i class="fa fa-trophy fa-2x" aria-hidden="true"></i> $1000 Bugsee credits
-				</h2>
+						<i class="fa fa-trophy fa-x" aria-hidden="true"></i> HackTheBox VIP Vouchers &nbsp;&nbsp; &nbsp;&nbsp;
+					</h2>
+					<h2 class="prizes">
+						<i class="fa fa-trophy fa-x" aria-hidden="true"></i> PentesterLab Pro Vouchers
+					</h2>
+					<h2 class="prizes">
+						<i class="fa fa-trophy fa-x" aria-hidden="true"></i> TryHackMe VIP Vouchers
+					</h2>
+					<h2 class="prizes">
+						<i class="fa fa-trophy fa-x" aria-hidden="true"></i> $1000 Bugsee credits
+					</h2>
 				</div>
 				<div class="col-12">
 					<h3 class="titles">
@@ -117,15 +112,15 @@
 					<a href="https://twitter.com/FwordTeam" target="_blank">
 						<i class="contact fa fa-twitter fa-4x"></i>
 					</a>
-					<a href="https://github.com/FwordTeam" target="_blank">
-						<i class="contact fa fa-github fa-4x"></i>
-					</a>
-					<a href="mailto: contact@fword.wtf" target="_blank">
-						<i class="contact fa fa-google fa-4x"></i>
-	               			</a>
-					<a href="https://discord.gg/beEcn8Q" target="_blank">
-						<i class="contact fa fa-discord fa-4x"></i>
-					</a>
+	                <a href="https://github.com/FwordTeam" target="_blank">
+	                	<i class="contact fa fa-github fa-4x"></i>
+	                </a>
+	                <a href="mailto: contact@fword.wtf" target="_blank">
+	                	<i class="contact fa fa-google fa-4x"></i>
+	                </a>
+	                <a href="#" target="_blank">
+	                	<i class="contact fa fa-discord fa-4x"></i>
+	                </a>
 				</div>
 			</div>
 
@@ -133,8 +128,9 @@
 </div>
 </body>
 
-<script  src="js/countdown.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script  src="js/countdown.js"></script>
 
 </html>
