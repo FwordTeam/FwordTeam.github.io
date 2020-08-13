@@ -36,14 +36,13 @@ li span {
 #fword-logo{
 	width: 20%;
 	height: auto;
-	
 	margin-bottom: 2%;
 }
 
 #logo-sponso{
-	max-width: 20%;
+	max-width: 14%;
 	height: auto;
-	margin: 3%;
+	margin: 2%;
 }
 
 #logo-sponso:hover{
@@ -63,7 +62,6 @@ li span {
 .contact{
 	color : #97c00e;
 	margin: 2%;
-
 }
 
 .contact:hover{
@@ -97,5 +95,3 @@ li span {
 .regg a:hover {
 	color : white;
 }
-
-ul {padding:0}
