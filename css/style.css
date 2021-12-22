@@ -19,6 +19,10 @@ canvas{
 
 }
 
+.cont {
+   margin:0 auto; /* this will center the page */
+   width:1200px; /*  use your width here */
+}
 
 li {
   display: inline-block;
@@ -58,7 +62,27 @@ li span {
 }
 
 .titles i{
-	color: #97c00e;
+  color: #97c00e;
+}
+
+.hire {
+  color: white;
+  font-size: 70px;
+  font-family: 'Cairo', sans-serif; 
+}
+
+.hire i{
+  color: #97c00e;
+}
+
+.service {
+  color: white;
+  font-size: 30px;
+  font-family: 'Cairo', sans-serif; 
+}
+
+.service i{
+  color: #97c00e;
 }
 
 .contact{
@@ -79,6 +103,17 @@ li span {
 .prizes i{
 	color: #97c00e;
 	margin-right: 1%;
+}
+
+.titre{
+  color: #97c00e;
+  font-size: 24px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.titre i{
+  color: #97c00e;
+  margin-right: 1%;
 }
 
 .regg a{
