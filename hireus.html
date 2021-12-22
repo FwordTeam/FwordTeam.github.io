@@ -2,81 +2,81 @@
 <html>
 
 <head>
-	<title>Fword CTF</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Fword CTF</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+                integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.css">
 
-	<!-- METADATA & FAVICONS-->
-	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+        <!-- METADATA & FAVICONS-->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 </head>
 <style type="text/css">
-	#myVideo {
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		min-width: 100%;
-		min-height: 100%;
-		filter: brightness(35%);
-	}
+        #myVideo {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                filter: brightness(35%);
+        }
 </style>
 
 <body>
 
-	<video autoplay muted loop id="myVideo" style="background-color: #1d1d1d">
-		<source src="background.mp4" type="video/mp4">
-	</video>
+        <video autoplay muted loop id="myVideo" style="background-color: #1d1d1d">
+                <source src="background.mp4" type="video/mp4">
+        </video>
 
-	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #29292946;">
-		<a class="navbar-brand" href="index.html">
-			<img src="img/f.png" class="nav-img" alt="Fword">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-			aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="team.html">Team</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="hireus.html">Hire us</a>
-				</li>
-			</ul>
-			<span class="nav-item">
-        <a class="navbar-brand" href="event.html"><button class="btn btn-outline-dark me-2 btn-lg" type="button">Fword Event</button></a>
-      </span>
-			<span class="nav-item">
-        <a class="navbar-brand" href="fwordctf_countdown.html"><button class="btn btn-outline-success me-2 btn-lg" type="button">FwordCTF 2K22</button></a>
-      </span>
-		</div>
-	</nav>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #29292946;">
+                <a class="navbar-brand" href="index.html">
+                        <img src="img/f.png" class="nav-img" alt="Fword">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="team.html">Team</a>
+                                </li>
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="hireus.html">Hire Us</a>
+                                </li>
+                        </ul>
+                        <span class="nav-item">
+                                <a class="navbar-brand" href="event.html"><button class="btn btn-outline-dark me-2 btn-lg" type="button">Fword Event</button></a>
+                        </span>
+                        <span class="nav-item">
+                                <a class="navbar-brand" href="fwordctf_countdown.html"><button class="btn btn-outline-success me-2 btn-lg" type="button">FwordCTF 2K22</button></a>
+                        </span>
+                </div>
+        </nav>
 
 	<div class="main cont">
     <div class="text-center container-fluid">
