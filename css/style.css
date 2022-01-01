@@ -34,13 +34,14 @@ canvas{
 
 .m{
   background-image: url("../img/FSecCon-Background.png");
+  background-position: 50% 0;
 }
 .vid{
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -6%;
-  margin-left: -13%;
+  margin-left: -12%;
 }
 
 li {
