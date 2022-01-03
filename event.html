@@ -34,20 +34,50 @@
 </head>
 <style type="text/css">
         #myVideo {
-                position: fixed;
-                right: 0;
-                bottom: 0;
-                min-width: 100%;
-                min-height: 100%;
-                filter: brightness(35%);
+            position: absolute;
+            top: 18%;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            min-height: 100%;
+            min-width: 100%;
         }
 </style>
 
 <body>
-
-        <video autoplay loop style="background-color: #1d1d1d">
+        <video autoplay loop id="myVideo" style="background-color: #1d1d1d">
                 <source src="Fword.mp4" type="video/mp4">
         </video>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #29292946;">
+                <a class="navbar-brand" href="index.html">
+                        <img src="img/f.png" class="nav-img" alt="Fword">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="team.html">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="hireus.html">Hire Us</a>
+                                </li>
+                        </ul>
+                        <span class="nav-item">
+                                <a class="navbar-brand" href="event.html"><button class="btn btn-outline-dark me-2 btn-lg" type="button">Fword Event</button></a>
+                        </span>
+                        <span class="nav-item">
+                                <a class="navbar-brand" href="fwordctf_countdown.html"><button class="btn btn-outline-success me-2 btn-lg" type="button">FwordCTF 2K22</button></a>
+                        </span>
+                </div>
+        </nav>
+
 
 </body>
 
