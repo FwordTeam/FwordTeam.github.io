@@ -33,7 +33,7 @@ canvas{
 }
 
 .m{
-  background-image: url("../img/FSecCon-Background.png");
+  background-image: url("../img/FSecCon-Background.png") no-repeat;
   background-position: 50% 0;
 }
 .vid{
