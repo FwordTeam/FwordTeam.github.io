@@ -33,9 +33,8 @@ canvas{
 }
 
 .m{
-  background-image: url("../img/FSecCon-Background.png") no-repeat; 
+  background-image: url("../img/FSecCon-Background.png");
   background-position: 50% 0;
-  background-size: 100% 100%;
 }
 .vid{
   position: fixed;
